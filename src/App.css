@@ -1,0 +1,210 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ .bg-light {
+  background-color: #e6ffff!important;
+  box-shadow: 0 4px 10px 0 rgba(109, 108, 108, 0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+} 
+.navbar-brand{
+  font-size: 27px;
+  padding-bottom: 5px;
+} 
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: rgb(197, 192, 192);
+}
+
+/* #darkModebtn{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: small;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding:2px 6px 2px 6px;
+}
+
+#darkModebtn:hover{
+  box-shadow: 0 2px 5px 0 rgba(109, 108, 108, 0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+} */
+#navbarDropdown{
+    margin-right: 10px;
+}
+.dropdown-menu{
+  box-shadow: 0 2px 5px 0 rgba(109, 108, 108, 0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+#flexSwitchCheckDefault{
+  margin-top: 12px;
+  
+}
+#darkBtntext{
+  
+  padding-top: 7px;
+  color: rgb(161, 158, 158);
+}
+
+#copyBtn{
+  float: right;
+  margin-top: 58px;  
+  margin-bottom: 5px;
+  font-size: small;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding:2px 6px 2px 6px;
+}
+
+#copyBtn:hover{
+  box-shadow: 0 2px 5px 0 rgba(109, 108, 108, 0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.btn{
+  background-color: #198754;
+  color: white;
+}
+.btn:hover{
+  background-color: gray;
+  
+}
+.joinButton{
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-left: 10px ;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.joinButton:hover{
+  background-color: grey;
+  color:black
+  
+}
+
+#Heading{
+  margin-top: 30px;
+  font-size: 35px;
+  
+}
+.upperCaseBtn {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+ .upperCaseBtn:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+} 
+
+
+.lowerCaseBtn {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  margin-right: 20px;
+}
+.lowerCaseBtn:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+}
+
+.resetBtn{
+  background-color: rgba(0, 0, 0, 0.096);
+  color: rgb(2, 2, 2);
+  border-radius: 4px;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  margin-right: 20px;
+}
+.resetBtn:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+}
+#textSummery{
+float: right;
+font-size: 15px;
+}
+/* #joinCardContainer{
+  max-width: 600px;
+  margin-top: 100px;
+  
+} */
+.card{
+  max-width: 600px;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-radius: 20px ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+  
+}
+
+#formContainer{
+    border: 1px solid rgb(85, 85, 85);
+   
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#nameId{
+  text-align: center;
+  
+}
+.card-header{
+  font-size: 25px;
+  
+}
+
+
